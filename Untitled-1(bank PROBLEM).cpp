@@ -1,7 +1,5 @@
 #include <iostream>
-
 using namespace std;
-
 
 class ACCOUNT
 {
@@ -31,16 +29,15 @@ public:
 	  		SI=bal*6*5/100;
 		cout<<"THE SI AT 7 % Rate for 5 years is :"<<SI;
 		cout<<endl;
-		
 	}
    void display(double bal,char name[],double acc_no)
 	{
 		cout<<"NAME "<<name<<endl;
 		cout<<"ACCOUNT NO "<<acc_no<<endl;
 		cout<<"BALCANCE "<<bal<<endl;
-	}
-	
+	}	
 };
+
 int main()
 {
 	ACCOUNT A;
